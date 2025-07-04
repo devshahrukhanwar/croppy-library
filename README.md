@@ -1,9 +1,12 @@
-# Croppie Library
-It is a wrapper around [croppie](https://foliotek.github.io/Croppie/) js library built on top of vanilla javascript. Easy to use and fast to implment. Implement the crop on images and preview them just in 3-5 lines of code. No muss no fuss. We take care of everything neccesary for implementing a basic crop library.
+# 🚀 Croppie Library
+It is a wrapper around [croppie](https://foliotek.github.io/Croppie/) js library built on top of vanilla javascript. Easy to use and fast to implement. Implement the crop on images and preview them just in 3-5 lines of code. No muss no fuss. We take care of everything necessary for implementing a basic crop library.
 Most of the things are customisable and totally flexible as in the original library written by **foliotek**.
 
-# Steps to use
+---
+
+# 🏗️ Steps to use
 - Download the source code via HTTPS or clone it to your local and place the `crop.js` and `crop.css` files as per your project hierarchy of public JS and CSS files.
+
 ```
 <!-- Crop CSS -->
 <link rel="stylesheet" href="../src/css/crop.css">
@@ -11,7 +14,9 @@ Most of the things are customisable and totally flexible as in the original libr
 <!-- Crop JS -->
 <script src="../src/js/crop.min.js"></script>
 ```
+
 - Instantiate the object as follows just in three basic line of codes.
+
 ```
 let crop = new ImageCrop({
     crop : true,                     //Optional (Default: true)
@@ -20,6 +25,7 @@ let crop = new ImageCrop({
     //Required if want to show crop image preview (This is id/class of div which must contain <img> tag)
 });
 ```
+
 - Now place event listener for the image change (i.e. when user select an image)
 ```
 //On clicking on image select
@@ -37,11 +43,39 @@ document.getElementById('crop_image').addEventListener('click', function(){
 
 - Wollaa... the crop for image is now implemented and you can test it now.
 
-# Examples
-- We give you three examples along with this library (i.e. index.html, examples/blog.html, examples/album.html)
-- Please take the referance from examples to extend the library as per your needs.
+---
 
-# Note
+# 🧩 Examples
+- There are three examples given with this library (i.e. [index.html](index.html), [examples/blog.html](examples/blog.html), [examples/album.html](examples/album.html))
+- Please take the reference from examples to extend the library as per your needs.
+
+---
+
+# 📝 Note
 This is not a full fletched library, it is simple to implement and customisable. You can customise as per the examples given by us and even provide your `crop modal` HTML to the `ImageCrop` instance.
 
-Thanks for reading and using the wrapper. I am open for the future contributions for this library. Please contact me if you have any issues.
+---
+
+## 🤝 Contact
+
+- 📧 Email: [shahrukhanwar@proton.me](mailto:shahrukhanwar@proton.me)
+- 🌐 Portfolio: [shahrukhanwar.vercel.app](https://shahrukhanwar.vercel.app)
+- 💼 LinkedIn: [linkedin.com/in/devshahrukh](https://www.linkedin.com/in/devshahrukh)
+- 🐦 Twitter: [x.com/devshahrukh](https://x.com/devshahrukh)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 💖 Sponsor & Support
+
+If you find this project useful, consider supporting me:
+
+<p align="left">
+  <a href="https://github.com/sponsors/devshahrukhanwar"><img src="https://img.shields.io/badge/Sponsor%20on-GitHub-E4405F?logo=githubsponsors&logoColor=fff&style=flat" alt="Sponsor on GitHub"/></a>
+  <a href="https://www.buymeacoffee.com/devshahrukh"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?logo=buymeacoffee&logoColor=000&style=flat" alt="Buy Me a Coffee"/></a>
+</p>
